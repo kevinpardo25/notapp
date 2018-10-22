@@ -1,0 +1,44 @@
+body {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: verdana, Arial Narrow, helvetica, sans-serif;
+	font-style: normal;
+	text-align: left;
+	margin-top: 0%;
+	margin-left: 10%;
+	margin-right: 2%;
+	vertical-align: top;
+	font-size: 90%;
+
+}
+input, select, button{
+	text-rendering: auto;
+	letter-spacing: normal;
+	display: inline-block;
+	text-align: start;
+
+}
+img{
+	margin-left: 0%;
+	width: 100%
+	margin-top: 0%;
+	height: auto;
+
+}
+.contenedor{
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+@media screen and (max-width: 800px){
+	body{
+		background: #FFFFFF;
+	}
+}
+@media screen and (max-width: 400px){
+	.contenedor{
+		width: 100%;
+	}
+}
+
